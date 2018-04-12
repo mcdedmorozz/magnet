@@ -41,6 +41,10 @@
 *.su
 *.idb
 *.pdb
+*.epp
+*.lss
+*.lst
+*.sym
 
 # Kernel Module Compile Results
 *.mod*

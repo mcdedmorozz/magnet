@@ -1,10 +1,12 @@
 #define F_CPU 8000000UL
 
-#include "io.h"
+#define __AVR_ATtiny44A__ 1
+
+#include <avr/io.h>
 #include <util/delay.h>
 
 
-int main(){
+int main(int argc, char *argv[]){
 
 DDRB |= _BV(PB0);
 
